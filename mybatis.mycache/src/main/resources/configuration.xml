@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+    plugins在配置文件中的位置必须符合要求，否则会报错，顺序如下:
+    properties?, settings?,
+    typeAliases?, typeHandlers?,
+    objectFactory?,objectWrapperFactory?,
+    plugins?,
+    environments?, databaseIdProvider?, mappers?
+    -->
+    <properties resource="jdbc.properties"/>
+    <settings>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+    <typeAliases>
+        <typeAlias alias="User" type="com.yihaomen.mybatis.model.User" />
+        <typeAlias alias="Article" type="com.yihaomen.mybatis.model.Article" />
+        <typeAlias alias="Orders" type="com.yihaomen.mybatis.model.Orders" />
+        <typeAlias alias="Customer" type="com.yihaomen.mybatis.model.Customer" />
+        <typeAlias alias="UserTwo" type="com.yihaomen.mybatis.model.UserTwo" />
+        <typeAlias alias="Group" type="com.yihaomen.mybatis.model.Group" />
+        <typeAlias alias="Student" type="com.yihaomen.mybatis.model.Student" />
+        <typeAlias alias="Teacher" type="com.yihaomen.mybatis.model.Teacher" />
+    </typeAliases>
+    <!--
+        注册typeHandler,注册有两种不同的方式
+        1.可以像下面这样一个类一个类的注册
+    -->
+    <!--<typeHandlers>
+        <typeHandler handler="com.yihaomen.mybatis.type.MyDateTypeHandler" />
+        <typeHandler handler="org.apache.ibatis.type.EnumOrdinalTypeHandler"
+                     javaType="com.yihaomen.mybatis.enums.Gender" />
+        <typeHandler handler="org.apache.ibatis.type.EnumTypeHandler"
+                     javaType="com.yihaomen.mybatis.enums.Hobby"/>
+        <typeHandler handler="com.yihaomen.mybatis.type.MyMemberTypeHandler"
+                javaType="com.yihaomen.mybatis.enums.Member"/>
+    </typeHandlers>-->
+    <!--2.也可以直接注册一个包中所有的typeHandler-->
+    <!--<typeHandlers>
+        <package name="com.yihaomen.mybatis.type"/>
+    </typeHandlers>-->
+    <!--<plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="dialect" value="mysql"/>
+            <property name="offsetAsPageNum" value="false"/>
+            <property name="rowBoundsWithCount" value="false"/>
+            <property name="pageSizeZero" value="true"/>
+            <property name="reasonable" value="false"/>
+            <property name="supportMethodsArguments" value="false"/>
+            <property name="returnPageInfo" value="none"/>
+        </plugin>
+    </plugins>-->
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <databaseIdProvider type="DB_VENDOR">
+        <property name="MySQL" value="mysql" />
+        <property name="Oracle" value="oracle" />
+    </databaseIdProvider>
+
+    <mappers>
+        <mapper resource="com/yihaomen/mybatis/model/User.xml"/>
+        <mapper resource="com/yihaomen/mybatis/model/Article.xml"/>
+        <mapper resource="com/yihaomen/mybatis/model/Orders.xml"/>
+        <mapper resource="com/yihaomen/mybatis/model/Customer.xml"/>
+        <mapper resource="com/yihaomen/mybatis/model/UserTwo.xml"/>
+        <mapper resource="com/yihaomen/mybatis/model/DatabaseIdProvider.xml"/>
+        <mapper resource="com/yihaomen/mybatis/model/Student.xml"/>
+    </mappers>
+</configuration>

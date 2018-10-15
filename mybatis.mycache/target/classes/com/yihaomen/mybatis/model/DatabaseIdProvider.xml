@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yihaomen.mybatis.dao.DatabaseIdProviderMapper">
+    <select id="selectTime" resultType="String" databaseId="mysql">
+        SELECT NOW() FROM dual
+    </select>
+    <select id="selectTime" resultType="String" databaseId="oracle">
+        SELECT  'oralce'||to_char(sysdate,'yyyy-mm-dd hh24:mi:ss')  FROM dual
+    </select>
+</mapper>

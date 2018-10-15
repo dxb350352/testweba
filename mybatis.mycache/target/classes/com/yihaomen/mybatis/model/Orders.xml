@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yihaomen.mybatis.dao.OrdersMapper">
+    <!-- 一对多查询，一个订单对应多个订单明细 -->
+    <select id="findOrdersOfCustomer" resultMap="ordersOfCustomerResultMap">
+        SELECT
+            t1.id oid,
+            t1.customer_id,
+            t1.number,
+            t1.create_time,
+            t1.note,
+            t2.id,
+            t2.customer_name,
+            t2.address,
+            t2.birthday
+        FROM
+            orders t1,
+            customer t2
+        WHERE
+          t1.customer_id = t2.id
+    </select>
+    <resultMap id="ordersOfCustomerResultMap" type="Orders">
+        <id property="id" column="oid" />
+        <result property="customerId" column="customer_id" />
+        <result property="number" column="number" />
+        <result property="createTime" column="create_time" />
+        <result property="note" column="note" />
+        <!-- 订单关联用户 -->
+        <association property="customer" javaType="Customer">
+            <id column="id" property="id"/>
+            <result column="customer_name" property="customerName"/>
+            <result column="address" property="address"/>
+            <result column="birthday" property="birthday"/>
+        </association>
+        <!-- 关联订单详细
+        <collection property="orderDetails" ofType="OrderDetail">
+            <id column="id" property="id"/>
+            <result column="items_id" property="itemsId"/>
+            <result column="orders_id" property="ordersId"/>
+            <result column="items_num" property="itemsNum"/>
+        </collection>-->
+    </resultMap>
+
+</mapper>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yihaomen.mybatis.dao.UserTwoMapper">
+    <resultMap id="userTwoResultMap" type="UserTwo">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="password" column="password" />
+        <result property="createTime" column="createtime" />
+    </resultMap>
+    <resultMap id="userTwoGroupResultMap" type="UserTwo" extends="userTwoResultMap">
+        <collection property="group" ofType="Group">
+            <id property="id" column="goupId" />
+            <result property="name" column="groupName" />
+            <result property="state" column="state" />
+            <result property="createTime" column="groupCreateTime" />
+        </collection>
+    </resultMap>
+    <!-- 根据user表中的id查询用户和组信息 -->
+    <select id="selectUserTwoGroup" resultMap="userTwoGroupResultMap">
+        SELECT
+          u.id, u.name, u.password, u.createtime,
+          g.id AS goupId,g.name AS groupName, g.createdate AS groupCreateTime, g.state
+        FROM
+          user_two u
+        LEFT JOIN
+          user_two_group ug
+        ON
+          u.id=ug.user_id
+        LEFT JOIN
+          `group` g
+        ON
+          ug.group_id=g.id
+    </select>
+</mapper>

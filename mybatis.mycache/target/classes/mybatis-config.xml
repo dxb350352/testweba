@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!--这个配置使全局的映射器(二级缓存)启用或禁用缓存-->
+        <setting name="cacheEnabled" value="true" />
+        <!--
+           允许jdbc支持生成的键。需要适合的驱动。如果设置为true，
+           则这个设置强制生成的键被使用，尽管一些驱动拒绝兼容但
+           仍然有效
+        -->
+        <setting name="useGeneratedKeys" value="true"/>
+        <!--配置默认的执行器。SIMPLE执行器没有什么特别之初。
+        REUSE执行器重用预处理语句。BATCH执行器重用语句和批量更新-->
+        <setting name="defaultExecutorType" value="REUSE"/>
+        <!--设置超时时间，它决定驱动等待一个数据库相应时间-->
+        <setting name="defaultStatementTimeout" value="25000"/>
+    </settings>
+    <!--配置别名
+    <typeAliases>
+        <typeAlias alias="Student" type="com.yihaomen.mybatis.model.Student"/>
+    </typeAliases>-->
+    <!--指定映射器路径
+    <mappers>
+        <mapper resource="com\yihaomen\mybatis\model\Student.xml"/>
+    </mappers>-->
+</configuration>

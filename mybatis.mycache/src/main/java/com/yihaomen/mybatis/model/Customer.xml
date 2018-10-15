@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yihaomen.mybatis.dao.CustomerMapper">
+    <select id="getCustomerOrders" resultMap="customerOrdersResultMap">
+        SELECT
+            t1.id oid,
+            t1.customer_id,
+            t1.number,
+            t1.create_time,
+            t1.note,
+            t2.id,
+            t2.customer_name,
+            t2.address,
+            t2.birthday
+        FROM
+            orders t1,
+            customer t2
+        WHERE
+          t1.customer_id = t2.id
+    </select>
+    <resultMap id="customerOrdersResultMap" type="Customer">
+        <id column="id" property="id"/>
+        <result column="customer_name" property="customerName"/>
+        <result column="address" property="address"/>
+        <result column="birthday" property="birthday"/>
+        <!--一对多这里就用collection-->
+        <collection property="ordersList" ofType="Orders">
+            <!--这个column=oid 一定要跟上面的区分开来,否则会有问题-->
+            <id property="id" column="oid" />
+            <result property="customerId" column="customer_id" />
+            <result property="number" column="number" />
+            <result property="createTime" column="create_time" />
+            <result property="note" column="note" />
+        </collection>
+    </resultMap>
+</mapper>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yihaomen.mybatis.dao.UserMapper">
+    <cache type="com.yihaomen.mybatis.cache.RedisCache"/>
+    <resultMap id="resultListUser" type="User">
+        <id column="id" property="id" />
+        <result column="userName" property="userName" />
+        <result column="userAge" property="userAge" />
+        <result column="gender" property="gender" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
+        <result column="hobby" property="hobby" typeHandler="org.apache.ibatis.type.EnumTypeHandler"/>
+        <result column="member" property="member" typeHandler="com.yihaomen.mybatis.type.MyMemberTypeHandler"/>
+        <result column="userAddress" property="userAddress" />
+        <result column="reg_time" property="regTime" javaType="java.util.Date" jdbcType="VARCHAR"
+                typeHandler="com.yihaomen.mybatis.type.MyDateTypeHandler"/>
+    </resultMap>
+    <select id="selectUserByID" parameterType="int" resultType="User" >
+        select * from `user` where id = #{id}
+    </select>
+    <select id="selectUsers" parameterType="string" resultMap="resultListUser">
+        select * from user where userName like #{userName}
+    </select>
+    <select id="selectUserById2" parameterType="long" resultMap="resultListUser">
+        select userName, gender, hobby, member from user where id = #{id}
+    </select>
+    <!--
+        1. id和parameterType
+        分别与IUserOperation接口中的addUser方法的名字和
+        参数类型一致.
+        2. seGeneratedKeys设置
+        为"true"表明要MyBatis获取由数据库自动生成的主键.
+        3. keyProperty="id"指定把获取到的主键值注入
+           到User的id属性
+    -->
+    <insert id="addUser" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        insert into user(userName,userAge,userAddress,reg_time)
+             values(#{userName},#{userAge},
+            #{userAddress},
+            #{regTime,javaType=Date,jdbcType=VARCHAR,typeHandler=com.yihaomen.mybatis.type.MyDateTypeHandler})
+    </insert>
+    <insert id="addUser2" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user(userName, userAge, gender, hobby, member, userAddress, reg_time)
+        VALUES(#{userName},#{userAge},#{gender},#{hobby},#{member}, #{userAddress},
+        #{regTime,javaType=Date,jdbcType=VARCHAR,typeHandler=com.yihaomen.mybatis.type.MyDateTypeHandler})
+    </insert>
+    <update id="updateUser" parameterType="User">
+        UPDATE `user` SET userName=#{userName}, userAge=#{userAge}, userAddress=#{userAddress}
+        WHERE id=#{id}
+    </update>
+    <delete id="deleteById" parameterType="int">
+        DELETE FROM `user` WHERE id=#{id}
+    </delete>
+    <!-- User 联合文章进行查询 方法之一的配置 (多对一的方式)  -->
+    <resultMap id="resultUserArticleList" type="Article">
+        <id property="id" column="aid" />
+        <result property="title" column="title" />
+        <result property="content" column="content" />
+
+        <association property="user" javaType="User">
+            <id property="id" column="id" />
+            <result property="userName" column="userName" />
+            <result property="userAddress" column="userAddress" />
+        </association>
+    </resultMap>
+    <resultMap id="resultUserArticleList3" type="User">
+        <id column="id" property="id" />
+        <result column="userName" property="userName" />
+        <result column="userAge" property="userAge" />
+        <result column="gender" property="gender" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
+        <result column="hobby" property="hobby" typeHandler="org.apache.ibatis.type.EnumTypeHandler"/>
+        <result column="member" property="member" typeHandler="com.yihaomen.mybatis.type.MyMemberTypeHandler"/>
+        <result column="userAddress" property="userAddress" />
+        <result column="reg_time" property="regTime" javaType="java.util.Date" jdbcType="VARCHAR"
+                typeHandler="com.yihaomen.mybatis.type.MyDateTypeHandler"/>
+        <!--一对多-->
+        <collection property="articleList" ofType="Article">
+            <!--这个column=aid 一定要跟上面id的区分开来,否则会查询不出来-->
+            <id property="id" column="aid"></id>
+            <result column="title" property="title" />
+            <result column="content" property="content"/>
+        </collection>
+
+    </resultMap>
+
+    <resultMap id="resultUserArticleList4" type="User">
+        <id column="id" property="id" />
+        <result column="userName" property="userName" />
+        <result column="userAge" property="userAge" />
+        <result column="gender" property="gender" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
+        <result column="hobby" property="hobby" typeHandler="org.apache.ibatis.type.EnumTypeHandler"/>
+        <result column="member" property="member" typeHandler="com.yihaomen.mybatis.type.MyMemberTypeHandler"/>
+        <result column="userAddress" property="userAddress" />
+        <result column="reg_time" property="regTime" javaType="java.util.Date" jdbcType="VARCHAR"
+                typeHandler="com.yihaomen.mybatis.type.MyDateTypeHandler"/>
+        <!--一对多-->
+        <collection property="articleList" column="userid"
+                    select="com.yihaomen.mybatis.dao.ArticleMapper.getArticlesByUserId">
+
+        </collection>
+
+    </resultMap>
+
+    <select id="getUserArticlesById" resultMap="resultUserArticleList4" parameterType="Long">
+        SELECT u.id, u.userName, u.userAddress, u.gender, a.id aid,a.userid, a.title, a.content
+        FROM `user` u,`article` a
+        WHERE u.id=a.userid and u.id=#{id}
+    </select>
+</mapper>

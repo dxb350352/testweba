@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yihaomen.mybatis.dao.ArticleMapper">
+    <!-- User 联合文章进行查询 方法之一的配置 (多对一的方式)  -->
+    <resultMap id="resultUserArticleList" type="Article">
+        <!--注意这个column=aid一定要跟下面的<association>中的<id property='id' column='id' >区分开来-->
+        <id property="id" column="aid" />
+        <result property="title" column="title" />
+        <result property="content" column="content" />
+
+        <association property="user" javaType="User">
+            <id property="id" column="id" />
+            <result property="userName" column="userName" />
+            <result property="userAddress" column="userAddress" />
+            <result property="gender" column="gender" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
+        </association>
+    </resultMap>
+    <resultMap id="resultUserArticleList2" type="Article">
+        <id property="id" column="aid" />
+        <result property="title" column="title" />
+        <result property="content" column="content" />
+        <association property="user" javaType="User" resultMap="resultListUser2" />
+    </resultMap>
+    <resultMap id="resultListUser2" type="User">
+        <id column="id" property="id" />
+        <result column="userName" property="userName" />
+        <result column="userAge" property="userAge" />
+        <result column="gender" property="gender" typeHandler="org.apache.ibatis.type.EnumOrdinalTypeHandler"/>
+        <result column="userAddress" property="userAddress" />
+    </resultMap>
+    <resultMap id="resultUserArticleList3" type="Article">
+        <id property="id" column="aid" />
+        <result property="title" column="title" />
+        <result property="content" column="content" />
+        <association property="user" column="userid" select="com.yihaomen.mybatis.dao.UserMapper.selectUserByID" />
+    </resultMap>
+    <resultMap id="resultArticles" type="Article">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="content" property="content" />
+    </resultMap>
+    <select id="getUserArticles" resultMap="resultUserArticleList2" parameterType="int">
+        SELECT user.id,user.userName,user.userAddress,article.id aid,article.title,article.content FROM `user`,article
+        WHERE `user`.id=article.userid
+    </select>
+    <!--如果两个表的id字段有关联，那必须都查询出来-->
+    <!--<select id="getUserArticles" resultMap="resultUserArticleList3">
+        SELECT u.id,u.userName,u.gender,u.userAddress,a.id aid,a.userid,a.title,a.content
+        FROM `user` u,`article` a
+        WHERE u.id=a.userid
+    </select>-->
+    <select id="getAllArticles" resultMap="resultArticles">
+        SELECT
+            id, title, content
+        FROM
+          article
+    </select>
+
+    <select id="getArticlesByUserId" parameterType="Integer" resultMap="resultArticles">
+        SELECT
+            id, title, content
+        FROM
+            article a
+        WHERE
+            a.userid=#{userId}
+    </select>
+
+</mapper>
