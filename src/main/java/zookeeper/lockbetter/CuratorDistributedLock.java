@@ -1,4 +1,4 @@
-package zookeeper.lockgood;
+package zookeeper.lockbetter;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
