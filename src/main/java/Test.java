@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Test {
 
@@ -16,5 +15,6 @@ public class Test {
         System.out.println("12321".hashCode());
         StringBuffer sb=new StringBuffer();
         sb.append(1);
+        var set=new Vector<>();
     }
 }
