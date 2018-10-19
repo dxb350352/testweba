@@ -221,6 +221,10 @@
             <AppenderRef ref="casAudit"/>
             <AppenderRef ref="casFile"/>
         </AsyncLogger>
+
+        <AsyncLogger name="com.dxb.sso.server.security.CustomPasswordEncoder" level="info" includeLocation="true">
+            <AppenderRef ref="casConsole"/>
+        </AsyncLogger>
         <AsyncRoot level="error">
             <AppenderRef ref="casConsole"/>
         </AsyncRoot>
