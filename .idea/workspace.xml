@@ -7,14 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="182f8895-c218-413e-86c7-0a38c1aac81b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/DistributedLockBetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mavenServices.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfigurationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/EnableCasClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/ssocasclientspringbootstarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/resources/app1.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/resources/app2.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zookeeper/lockgood/CuratorDistributedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zookeeper/lockbetter/CuratorDistributedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis.mycache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis.mycache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot.kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot.kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mybatis.mycache/target/" />
     <ignored path="$PROJECT_DIR$/springboot.kafka/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/target/" />
+    <ignored path="$PROJECT_DIR$/sso-server/target/" />
+    <ignored path="$PROJECT_DIR$/sso-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,26 +129,77 @@
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
+    <session id="-521230608">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="factories" value="1" />
+          <entry key="java" value="6" />
+          <entry key="json" value="2" />
+          <entry key="properties" value="7" />
+          <entry key="xml" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="JSON" value="2" />
+          <entry key="Properties" value="7" />
+          <entry key="XML" value="16" />
+          <entry key="spring.factories" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="154" />
+          <entry key="properties" value="85" />
+          <entry key="xml" value="70" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="154" />
+          <entry key="Properties" value="85" />
+          <entry key="XML" value="70" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLockBetter.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/SsoClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="891">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="158">
+              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#1420#1421#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLock.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="189">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -195,18 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/netty/http/ShortToByteEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/self/ToIntegerDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/self/LiveDecoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/self/ShortToByteEncoder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/echo/server/EchoServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/echo/client/EchoClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/echo/client/EchoClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/echo/server/EchoServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/live/SocketTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/live/LiveServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/live/LongConnTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/netty/http/HttpHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/zookeeper/DistributedLock.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/zookeeper/Test.java" />
@@ -223,7 +283,6 @@
         <option value="$PROJECT_DIR$/src/main/java/mybatis/TestStudent.java" />
         <option value="$PROJECT_DIR$/mybatis.mycache/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/mybatis.mycache/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/mybatis.mycache/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis.mycache/src/test/java/com/yihaomen/service/student/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/cache/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/cache/Student.xml" />
@@ -237,8 +296,6 @@
         <option value="$PROJECT_DIR$/mybatis.mycache/src/test/java/com/yihaomen/service/user/TestAddUser.java" />
         <option value="$PROJECT_DIR$/mybatis.mycache/src/test/java/com/yihaomen/service/user/TestGetUser.java" />
         <option value="$PROJECT_DIR$/mybatis.mycache/src/test/java/MybatisSpringTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot.kafka/pom.xml" />
         <option value="$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/Message.java" />
         <option value="$PROJECT_DIR$/springboot.kafka/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/KafkaApplication.java" />
@@ -246,6 +303,21 @@
         <option value="$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/KafkaReceiver.java" />
         <option value="$PROJECT_DIR$/src/main/java/zookeeper/lockbetter/CuratorDistributedLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/redis/DistributedLockBetter.java" />
+        <option value="$PROJECT_DIR$/springboot.kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis.mycache/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfigurationProperties.java" />
+        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java" />
+        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/EnableCasClient.java" />
+        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/sso-client/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/SsoClientApplication.java" />
+        <option value="$PROJECT_DIR$/sso-client/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -279,11 +351,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-mybatis Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -302,7 +374,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,17 +384,63 @@
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-cas-client-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -331,23 +448,25 @@
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -360,20 +479,21 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../axis2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sso-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.15481548" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba\sso-client\src\main\resources" />
+      <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba" />
       <recent name="E:\idea_java_workspace\testweba\src\main\resources" />
       <recent name="E:\idea_java_workspace\testweba\src\main\resources\mybatis\cache" />
       <recent name="E:\idea_java_workspace\testweba\src\main\java\mybatis\cache" />
-      <recent name="E:\idea_java_workspace\testweba\src\main\java\netty\http" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="redis" />
@@ -383,11 +503,11 @@
       <recent name="rabbitmq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba\sso-client\src\main\resources" />
       <recent name="E:\idea_java_workspace\testweba\src\main\java\mybatis\cache" />
       <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\test\java\com\yihaomen\service\student" />
       <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\test\java" />
       <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\main" />
-      <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -402,10 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KafkaApplication">
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
+  <component name="RunManager" selected="Application.SsoClientApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -420,24 +537,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="mybatismycache" />
+    <configuration name="SsoClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dxb.ssoclient.SsoClientApplication" />
+      <module name="sso-client" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dxb.ssoclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAddUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yihaomen.service.user.TestAddUser" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="mybatismycache" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yihaomen.service.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -468,6 +585,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springbootkafka" />
       <extension name="coverage">
@@ -477,6 +601,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.dxb.KafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SsoClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sso-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dxb.ssoclient.SsoClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -623,21 +754,32 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat8" />
-      <item itemvalue="Application.TestAddUser" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.SsoClientApplication" />
       <item itemvalue="Application.TestGetUser" />
       <item itemvalue="Application.MybatisSpringTest" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Spring Boot.KafkaApplication" />
+      <item itemvalue="Application.SsoClientApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SsoClientApplication" />
         <item itemvalue="Spring Boot.KafkaApplication" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MybatisSpringTest" />
         <item itemvalue="Application.TestGetUser" />
-        <item itemvalue="Application.TestAddUser" />
       </list>
     </recent_temporary>
   </component>
@@ -684,6 +826,15 @@
       <workItem from="1539220523092" duration="19875000" />
       <workItem from="1539325703376" duration="3042000" />
       <workItem from="1539328793088" duration="25420000" />
+      <workItem from="1539785116672" duration="1901000" />
+      <workItem from="1539787045815" duration="944000" />
+      <workItem from="1539873344864" duration="2030000" />
+      <workItem from="1539960944791" duration="2056000" />
+      <workItem from="1539963098924" duration="1059000" />
+      <workItem from="1540034422881" duration="395000" />
+      <workItem from="1540037475641" duration="4825000" />
+      <workItem from="1540100811100" duration="3255000" />
+      <workItem from="1540104906676" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539585702633</created>
@@ -735,7 +886,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180969000" />
+    <option name="totallyTimeSpent" value="201487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,34 +901,36 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="ZooKeeper" weight="0.3299356" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.277897" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.31491417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.50161815" side_tool="true" weight="0.37070817" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info id="ZooKeeper" order="5" weight="0.3299356" />
+      <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3411371" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.48264277" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49892703" weight="0.4593088" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.4593088" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.34042552" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32998884" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.30364805" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.22854078" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27521458" />
@@ -848,105 +1001,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/cache/Student.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/cache/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/cache/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/cache/configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mybatis/cache/TestStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/java/com/yihaomen/mybatis/dao/DatabaseIdProviderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/java/com/yihaomen/mybatis/model/DatabaseIdProvider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/java/com/yihaomen/mybatis/model/User.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/java/com/yihaomen/mybatis/model/Article.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1035,9 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,9 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,21 +1127,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/1.6.2.RELEASE/spring-data-redis-1.6.2.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.6.2.RELEASE/spring-data-redis-1.6.2.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class" />
     <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/java/com/yihaomen/mybatis/cache/RedisCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#4011#4012#0" expanded="true" />
-            <element signature="e#4052#4053#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,38 +1180,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot.kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="36" column="44" lean-forward="true" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -1188,9 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1205,9 +1212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,33 +1219,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLockBetter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
+        <state relative-caret-position="70">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLockBetter.java">
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis.mycache/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="108">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot.kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="100" selection-start-column="100" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfigurationProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/EnableCasClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/SsoClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1256,7 +1364,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1264,7 +1371,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (testweba)|Web</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1288,7 +1395,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>java10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1300,12 +1407,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springbootkafka</last-edited>
+          <last-edited>sso-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

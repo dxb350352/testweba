@@ -4,6 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis.mycache" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot.kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sso-server" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
