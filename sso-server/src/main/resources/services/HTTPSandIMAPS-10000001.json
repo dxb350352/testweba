@@ -5,5 +5,5 @@
   "id" : 10000001,
   "description" : "所有的https或者http访问都允许通过",
   "evaluationOrder" : 10000,
-  "logoutType" : "BACK_CHANNEL"
+  "logoutType" : "FRONT_CHANNEL"
 }
