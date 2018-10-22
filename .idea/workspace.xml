@@ -7,480 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="182f8895-c218-413e-86c7-0a38c1aac81b" name="Default Changelist" comment="不需要登录的url配置">
-      <change afterPath="$PROJECT_DIR$/sso.api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/SprayApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/base/BaseApiCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/base/BaseApiResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/controller/BeautifulApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/controller/FunnyApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/controller/NewsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/filter/SimpleCORSFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/java/com/shang/spray/utils/ModelHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/licensing/header-definitions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/licensing/header.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/apereo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/cas-theme-default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/cas_views.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_ar.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_ca.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_cs.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_de.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_fa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_fr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_hr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_it.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_mk.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_nl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_pl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_pt_BR.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_pt_PT.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_ru.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_sk.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_sl.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_sv.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_tr.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_uk.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_ur.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/messages_zh_TW.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/Apereo-10000002.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/HTTPSandIMAPS-10000001.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-access-strategy.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-allowed-attributes.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-authz-strategy.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-filtered-attributes.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-mapped-attributes.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-proxy-authz.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-public-key.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-username-anon.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/services/sample-username-service.json.sample" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/resources/truststore.jks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/WEB-INF/view/jsp/default/ui/includes/bottom.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/WEB-INF/view/jsp/default/ui/includes/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/css/cas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/cas-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/confirm.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/error.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/green.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/info.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/key-point_bl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/key-point_br.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/key-point_tl.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/key-point_tr.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/red.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/images/webapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/js/cas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/themes/apereo/css/cas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/themes/apereo/images/apereo-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/themes/apereo/images/bg-tile.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.cas/src/main/webapp/themes/apereo/js/cas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/src/main/java/com/dxb/SimpleUrlPatternMatcherStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/src/main/java/com/dxb/SpringbootCasClient1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/src/main/java/com/dxb/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/src/main/java/com/dxb/controller/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.client2/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/SprayCrawlerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/config/SchedulerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/config/SpringJobFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/controller/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/job/BaseJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/job/JianShuJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/job/KaiFaZheTouTiaoJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/job/SsyerJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/job/WallHavenJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/job/ZhiHuJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/pipeline/BeautifulPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/pipeline/FunnyPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/pipeline/NewsPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/DevelopersProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/DuanZiGeProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/JianShuRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/SsyerRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/WallHeavnProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/WallProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/java/com/shang/spray/processor/ZhiHuProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/resources/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.crawler/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/SprayManageCasApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/BeautifulController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/FunnyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/SourcesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/controller/TypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/security/AppUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/security/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/avatars/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/ace-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/cyrillic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/font-awesome-ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/jquery-ui-1.10.3.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/jquery-ui-1.10.3.full.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/date-time/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/date-time/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/date-time/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/date-time/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/flot/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/flot/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/flot/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/fuelux/data/fuelux.tree-sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/fuelux/fuelux.spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/fuelux/fuelux.tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/fuelux/fuelux.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery-ui-1.10.3.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.colorbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.easy-pie-chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.hotkeys.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/markdown/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/markdown/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/typeahead-bs2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/x-editable/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/assets/js/x-editable/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/common/js/jqPaginator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/common/js/jquery-3.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/static/common/zepto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/beautiful/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/beautiful/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/common/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/common/config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/common/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/common/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/common/resources.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/common/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/config/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/config/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/funny/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/funny/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/news/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/news/add_news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/news/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/sources/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/sources/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/type/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage.cas/src/main/resources/templates/type/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/SprayManageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/WebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/BeautifulController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/FunnyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/SourcesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/controller/TypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/security/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/java/com/shang/spray/security/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/application-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/avatars/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/ace-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/bootstrap-editable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/chosen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/colorbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/cyrillic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/daterangepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/font-awesome-ie7.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/jquery-ui-1.10.3.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/jquery-ui-1.10.3.full.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/date-time/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/date-time/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/date-time/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/date-time/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/flot/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/flot/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/flot/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/fuelux/data/fuelux.tree-sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/fuelux/fuelux.spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/fuelux/fuelux.tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/fuelux/fuelux.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jqGrid/i18n/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jqGrid/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery-2.0.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery-ui-1.10.3.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery-ui-1.10.3.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.colorbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.easy-pie-chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.hotkeys.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/markdown/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/markdown/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/typeahead-bs2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/x-editable/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/assets/js/x-editable/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/common/js/jqPaginator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/common/js/jquery-3.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/static/common/zepto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/beautiful/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/beautiful/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/common/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/common/config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/common/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/common/left.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/common/resources.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/common/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/config/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/config/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/funny/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/funny/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/news/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/news/add_news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/news/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/sources/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/sources/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/type/add_link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.manage/src/main/resources/templates/type/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/SprayServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/Beautiful.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/Funny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/JobAndTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/Sources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/BeautifulRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/ConfigRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/FunnyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/NewsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/SourcesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/TypeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/BeautifulService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/FunnyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/JobAndTriggerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/NewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/SourcesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/TypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/specification/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/specification/Criterion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/specification/LogicalExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/specification/NullUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/specification/Restrictions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/java/com/shang/spray/utils/specification/SimpleExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/resources/spray_create.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sso.service/src/main/resources/spray_data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/cache/RedisCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/cache/RedisCacheTransfer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/ArticleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/CustomerMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/DatabaseIdProviderMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/OrdersMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/dao/UserTwoMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/enums/Gender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/enums/Hobby.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/enums/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/enums/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/Group.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/Orders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/UserTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/model/UserTwoGroupLink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/service/ArticleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/service/impl/ArticleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/type/MyDateTypeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis.mycache/target/classes/com/yihaomen/mybatis/type/MyMemberTypeHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot.kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot.kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/cache/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/cache/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/cache/TestStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/zookeeper/lockgood/CuratorDistributedLock.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -520,13 +48,14 @@
           <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.52" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -534,9 +63,10 @@
           <entry key="c" value="9" />
           <entry key="dummy" value="11" />
           <entry key="html" value="2" />
-          <entry key="java" value="10435" />
-          <entry key="properties" value="60" />
-          <entry key="txt" value="20" />
+          <entry key="java" value="10478" />
+          <entry key="json" value="10" />
+          <entry key="properties" value="84" />
+          <entry key="txt" value="39" />
           <entry key="xml" value="215" />
         </counts>
       </usages-collector>
@@ -544,38 +74,43 @@
         <counts>
           <entry key="C++" value="9" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="10435" />
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Properties" value="60" />
+          <entry key="JAVA" value="10478" />
+          <entry key="JSON" value="10" />
+          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="Properties" value="84" />
           <entry key="XML" value="215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="c" value="1" />
-          <entry key="class" value="9" />
+          <entry key="class" value="24" />
+          <entry key="gitignore" value="1" />
           <entry key="h" value="2" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="275" />
+          <entry key="java" value="290" />
+          <entry key="json" value="6" />
           <entry key="jsp" value="2" />
           <entry key="locks" value="1" />
-          <entry key="properties" value="14" />
+          <entry key="properties" value="27" />
           <entry key="test" value="4" />
-          <entry key="xml" value="73" />
+          <entry key="xml" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C++" value="3" />
-          <entry key="CLASS" value="9" />
+          <entry key="CLASS" value="24" />
+          <entry key="Git file" value="1" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="275" />
+          <entry key="JAVA" value="290" />
+          <entry key="JSON" value="6" />
           <entry key="JSP" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="14" />
-          <entry key="XML" value="73" />
+          <entry key="Properties" value="27" />
+          <entry key="XML" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -642,29 +177,7 @@
     <favorites_list name="testweba" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -676,10 +189,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>;//</find>
-      <find>//</find>
-      <find>//&quot;</find>
-      <find>,\n</find>
       <find>le身份验证器</find>
       <find>genSecretTest</find>
       <find>t</find>
@@ -706,6 +215,10 @@
       <find>logout</find>
       <find>clu</find>
       <find>sso.api</find>
+      <find>注册客户端</find>
+      <find>serviceRegistry</find>
+      <find>getSessionMappingStorage</find>
+      <find>followServiceRedirects</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -728,9 +241,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/zookeeper/good/CuratorDistributedLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/zookeeper/lockgood/CuratorDistributedLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/redis/Service.java" />
         <option value="$PROJECT_DIR$/src/main/java/redis/DistributedLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/Cache.java" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/Student.java" />
@@ -764,21 +274,24 @@
         <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfigurationProperties.java" />
         <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/EnableCasClient.java" />
         <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/sso-server/pom.xml" />
         <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/sso-client/pom.xml" />
         <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/SsoClientApplication.java" />
         <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/noneedauth/SimpleUrlPatternMatcherStrategy.java" />
         <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/LoginOutController.java" />
-        <option value="$PROJECT_DIR$/sso-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/sso-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json" />
         <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/SingleSignOutFilter.java" />
         <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/SingleSignOutHandler.java" />
-        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot.kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-server/target/cas/WEB-INF/classes/apereo.properties" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000002.json" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/SingleSignOutConfig.java" />
+        <option value="$PROJECT_DIR$/sso-server/pom.xml" />
+        <option value="$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java" />
+        <option value="$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/LoginOutController.java" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json" />
+        <option value="$PROJECT_DIR$/sso-client/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -809,17 +322,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot.kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot.kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -835,6 +338,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -845,19 +350,18 @@
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
-              <item name="sso-client" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
               <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -875,15 +379,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15481548" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_java_workspace\testweba\sso-server\src\main\resources\services" />
       <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba\sso-client\src\main\resources" />
-      <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba" />
-      <recent name="E:\idea_java_workspace\testweba\src\main\resources" />
-      <recent name="E:\idea_java_workspace\testweba\src\main\resources\mybatis\cache" />
       <recent name="E:\idea_java_workspace\testweba\src\main\java\mybatis\cache" />
+      <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\test\java\com\yihaomen\service\student" />
+      <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="redis" />
@@ -892,12 +396,12 @@
       <recent name="sysproperty" />
       <recent name="rabbitmq" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba\sso-client\src\main\resources" />
+      <recent name="D:\ProgramFiles\ideaIU-2018.2.4.win\workspace\testweba" />
+      <recent name="E:\idea_java_workspace\testweba\src\main\resources" />
+      <recent name="E:\idea_java_workspace\testweba\src\main\resources\mybatis\cache" />
       <recent name="E:\idea_java_workspace\testweba\src\main\java\mybatis\cache" />
-      <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\test\java\com\yihaomen\service\student" />
-      <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\test\java" />
-      <recent name="E:\idea_java_workspace\testweba\mybatis.mycache\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1225,6 +729,7 @@
       <workItem from="1540037475641" duration="4825000" />
       <workItem from="1540100811100" duration="3255000" />
       <workItem from="1540104906676" duration="14780000" />
+      <workItem from="1540186157355" duration="12965000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539585702633</created>
@@ -1254,7 +759,21 @@
       <option name="project" value="LOCAL" />
       <updated>1540110596675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ignore插件">
+      <created>1540186474666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540186474666</updated>
+    </task>
+    <task id="LOCAL-00006" summary="为啥登出FRONT_CHANNEL才行">
+      <created>1540198915405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1540198915405</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1290,7 +809,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219168000" />
+    <option name="totallyTimeSpent" value="232133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1304,7 +823,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.30633047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.3004292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.50161815" side_tool="true" weight="0.37070817" />
       <window_info id="Designer" order="3" />
@@ -1313,8 +832,8 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.48264277" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.39865622" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.48160535" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946353" weight="0.43701226" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
@@ -1331,8 +850,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.30364805" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.30364805" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.3299356" />
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="right" id="CDI" order="8" />
     </layout>
@@ -1375,7 +894,9 @@
     <MESSAGE value="springboot-kafka" />
     <MESSAGE value="cas start&#10;cas client" />
     <MESSAGE value="不需要登录的url配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="不需要登录的url配置" />
+    <MESSAGE value="ignore插件" />
+    <MESSAGE value="为啥登出FRONT_CHANNEL才行" />
+    <option name="LAST_COMMIT_MESSAGE" value="为啥登出FRONT_CHANNEL才行" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1407,193 +928,15 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="80" column="78" lean-forward="true" selection-start-line="80" selection-start-column="78" selection-end-line="80" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/resources/configuration.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1103">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/test/java/com/yihaomen/service/student/TestStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/java/com/yihaomen/mybatis/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/src/main/resources/redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" column="74" lean-forward="true" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/zookeeper/lockbetter/CuratorDistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/KafkaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot.kafka/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/KafkaReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot.kafka/src/main/java/com/dxb/KafkaSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLockBetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/mybatis.mycache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/resources/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="100" selection-start-column="100" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/EnableCasClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfigurationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-core-api-logout/5.3.2/cas-server-core-api-logout-5.3.2.jar!/org/apereo/cas/logout/SingleLogoutServiceMessageHandler.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-core-api-logout/5.3.2/cas-server-core-api-logout-5.3.2.jar!/org/apereo/cas/logout/SingleLogoutServiceLogoutUrlBuilder.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-core-api-logout/5.3.2/cas-server-core-api-logout-5.3.2.jar!/org/apereo/cas/logout/LogoutManager.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-core-api-logout/5.3.2/cas-server-core-api-logout-5.3.2.jar!/org/apereo/cas/logout/LogoutHandler.class" />
-    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/noneedauth/SimpleUrlPatternMatcherStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/LoginOutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-318">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/SsoClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-client/src/main/resources/services/HTTPSandIMAPS-10000001.json" />
     <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/SingleSignOutFilter.java" />
     <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/SingleSignOutHandler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/util/AbstractConfigurationFilter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/configuration/ConfigurationKeys.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutFilter.class" />
-    <entry file="file://$PROJECT_DIR$/sso-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1657,13 +1000,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-client/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1678,20 +1014,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso.cas/pom.xml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="89" column="60" lean-forward="true" selection-start-line="89" selection-start-column="60" selection-end-line="89" selection-end-column="60" />
+        <state relative-caret-position="270">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/target/cas/org/springframework/boot/loader/ExecutableArchiveLauncher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/target/cas/WEB-INF/classes/apereo.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso.service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="87" column="52" lean-forward="true" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/SsoClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/util/HttpServletRequestWrapperFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="33" column="152" lean-forward="true" selection-start-line="33" selection-start-column="152" selection-end-line="33" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/authentication/AuthenticationFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+          <folding>
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000002.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.14.RELEASE/spring-boot-autoconfigure-1.5.14.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="275" column="16" selection-start-line="275" selection-start-column="16" selection-end-line="275" selection-end-column="16" />
+          <folding>
+            <element signature="e#9848#9849#0" expanded="true" />
+            <element signature="e#9906#9907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/MyAuthenticationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/MyAuthenticationConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/CustomPasswordEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/noneedauth/SimpleUrlPatternMatcherStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpSessionListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/catalina/session/StandardSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/SingleSignOutConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#811#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/LoginOutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="112" column="58" lean-forward="true" selection-start-line="112" selection-start-column="58" selection-end-line="112" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutHttpSessionListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="571">
+          <caret line="119" column="54" lean-forward="true" selection-start-line="119" selection-start-column="54" selection-end-line="119" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000001.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/SprayManageCasApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso.manage.cas/src/main/java/com/shang/spray/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso.cas/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="84" column="34" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso.manage.cas/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1750,7 +1299,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>testweba</last-edited>
+          <last-edited>ssomanagecas</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
