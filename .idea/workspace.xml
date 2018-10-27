@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="182f8895-c218-413e-86c7-0a38c1aac81b" name="Default Changelist" comment="cas server redis存ticket session">
+    <list default="true" id="182f8895-c218-413e-86c7-0a38c1aac81b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,13 +41,13 @@
     <session id="1664564802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -72,7 +72,7 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -83,7 +83,7 @@
           <entry key="java" value="10527" />
           <entry key="json" value="10" />
           <entry key="properties" value="138" />
-          <entry key="txt" value="75" />
+          <entry key="txt" value="86" />
           <entry key="xml" value="244" />
         </counts>
       </usages-collector>
@@ -93,7 +93,7 @@
           <entry key="HTML" value="2" />
           <entry key="JAVA" value="10527" />
           <entry key="JSON" value="10" />
-          <entry key="PLAIN_TEXT" value="86" />
+          <entry key="PLAIN_TEXT" value="97" />
           <entry key="Properties" value="138" />
           <entry key="XML" value="244" />
         </counts>
@@ -367,6 +367,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -378,8 +380,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,6 +753,8 @@
       <workItem from="1540542389171" duration="400000" />
       <workItem from="1540543522127" duration="165000" />
       <workItem from="1540543723911" duration="2777000" />
+      <workItem from="1540547349950" duration="258000" />
+      <workItem from="1540547660345" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539585702633</created>
@@ -824,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540542473729</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="去掉一些.class">
+      <created>1540547603303</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1540547603303</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -860,7 +869,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241699000" />
+    <option name="totallyTimeSpent" value="242374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -874,14 +883,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.21137339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.2167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.50161815" side_tool="true" weight="0.37070817" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="ZooKeeper" order="5" weight="0.3299356" />
       <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Docker" weight="0.3939732" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.27759197" />
@@ -897,6 +905,7 @@
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32998884" />
       <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" weight="0.3939732" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -951,7 +960,8 @@
     <MESSAGE value="小改" />
     <MESSAGE value="cas server redis存ticket session" />
     <MESSAGE value="sql" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql" />
+    <MESSAGE value="去掉一些.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉一些.class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
