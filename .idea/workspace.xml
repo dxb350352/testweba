@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="182f8895-c218-413e-86c7-0a38c1aac81b" name="Default Changelist" comment="">
+    <list default="true" id="182f8895-c218-413e-86c7-0a38c1aac81b" name="Default Changelist" comment="cas server redis存ticket session">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,13 +41,13 @@
     <session id="1664564802">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="40" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="1" />
@@ -72,7 +72,7 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -83,7 +83,7 @@
           <entry key="java" value="10527" />
           <entry key="json" value="10" />
           <entry key="properties" value="138" />
-          <entry key="txt" value="86" />
+          <entry key="txt" value="75" />
           <entry key="xml" value="244" />
         </counts>
       </usages-collector>
@@ -93,7 +93,7 @@
           <entry key="HTML" value="2" />
           <entry key="JAVA" value="10527" />
           <entry key="JSON" value="10" />
-          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="PLAIN_TEXT" value="86" />
           <entry key="Properties" value="138" />
           <entry key="XML" value="244" />
         </counts>
@@ -191,12 +191,47 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="887427991">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Git file" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.edit" />
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="testweba" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -260,7 +295,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/mybatis/Student.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/Student.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mybatis/TestStudent.java" />
@@ -311,6 +345,7 @@
         <option value="$PROJECT_DIR$/sso-client/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/CustomPasswordEncoder.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -331,6 +366,9 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\ProgramFiles\apache-maven-3.5.4\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\ProgramFiles\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -342,6 +380,14 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot.kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sso-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="sso-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -368,7 +414,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,10 +421,27 @@
               <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
               <item name="testweba" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testweba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testweba" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -391,13 +453,14 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540621625830" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/sso-server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15481548" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -435,15 +498,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SsoClientApplication">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -675,6 +729,15 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat8" />
       <item itemvalue="Spring Boot.DemoApplication" />
@@ -753,8 +816,7 @@
       <workItem from="1540542389171" duration="400000" />
       <workItem from="1540543522127" duration="165000" />
       <workItem from="1540543723911" duration="2777000" />
-      <workItem from="1540547349950" duration="258000" />
-      <workItem from="1540547660345" duration="417000" />
+      <workItem from="1540620748006" duration="849000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1539585702633</created>
@@ -826,14 +888,7 @@
       <option name="project" value="LOCAL" />
       <updated>1540542473729</updated>
     </task>
-    <task id="LOCAL-00011" summary="去掉一些.class">
-      <created>1540547603303</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1540547603303</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -869,7 +924,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242374000" />
+    <option name="totallyTimeSpent" value="242649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,13 +938,15 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.2167382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.33154505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.50161815" side_tool="true" weight="0.37070817" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="ZooKeeper" order="5" weight="0.3299356" />
       <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Image Layers" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892703" weight="0.27759197" />
@@ -897,10 +954,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32998884" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49892703" weight="0.32887402" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49839056" weight="0.3281075" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49892703" weight="0.4593088" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107294" side_tool="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50160944" side_tool="true" weight="0.32698768" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32998884" />
@@ -911,10 +968,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3299356" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.41416308" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.18723176" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.3299356" />
       <window_info anchor="right" id="Palette" order="7" />
       <window_info anchor="right" id="CDI" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27521458" />
@@ -960,8 +1019,7 @@
     <MESSAGE value="小改" />
     <MESSAGE value="cas server redis存ticket session" />
     <MESSAGE value="sql" />
-    <MESSAGE value="去掉一些.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="去掉一些.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -994,7 +1052,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/configuration/ConfigurationKeys.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutFilter.class" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1024,28 +1081,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sso.service/pom.xml" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/util/HttpServletRequestWrapperFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="33" column="152" lean-forward="true" selection-start-line="33" selection-start-column="152" selection-end-line="33" selection-end-column="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/authentication/AuthenticationFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/util/HttpServletRequestWrapperFilter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/authentication/AuthenticationFilter.class" />
     <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/services/HTTPSandIMAPS-10000002.json" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.14.RELEASE/spring-boot-autoconfigure-1.5.14.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="275" column="16" selection-start-line="275" selection-start-column="16" selection-end-line="275" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.14.RELEASE/spring-boot-autoconfigure-1.5.14.RELEASE.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.class" />
     <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1074,20 +1113,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpSessionListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/catalina/session/StandardSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpSessionListener.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/catalina/session/StandardSession.class" />
     <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/com/dxb/sso/server/security/SingleSignOutConfig.java" />
     <entry file="file://$PROJECT_DIR$/sso-client/src/main/java/com/dxb/ssoclient/controller/LoginOutController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1096,27 +1123,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="112" column="58" lean-forward="true" selection-start-line="112" selection-start-column="58" selection-end-line="112" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="68" column="23" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutHttpSessionListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutHandler.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutFilter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jasig/cas/client/cas-client-core/3.5.0/cas-client-core-3.5.0.jar!/org/jasig/cas/client/session/SingleSignOutHttpSessionListener.class" />
     <entry file="file://$PROJECT_DIR$/sso-cas-client-spring-boot-starter/src/main/java/com/dxb/sso/starter/CasClientConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
@@ -1222,15 +1231,29 @@
     <entry file="file://$PROJECT_DIR$/testweba.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/testweba.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="451">
+          <caret line="1339" column="10" selection-start-line="1339" selection-start-column="10" selection-end-line="1339" selection-end-column="10" />
+          <folding>
+            <element signature="e#11540#11546#0" expanded="true" />
+            <element signature="e#11577#11583#0" expanded="true" />
+            <element signature="e#11609#11615#1" expanded="true" />
+            <element signature="e#50702#50708#0" expanded="true" />
+            <element signature="e#50713#50719#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testweba.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1238,7 +1261,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>testweba:war</last-edited>
+          <last-edited>mybatis.mycache:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1287,11 +1310,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ssomanagecas</last-edited>
+          <last-edited>mybatis.mycache</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
