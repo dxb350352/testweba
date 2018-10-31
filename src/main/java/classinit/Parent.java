@@ -1,4 +1,4 @@
-package parent;
+package classinit;
 
 /**
  * 父类
