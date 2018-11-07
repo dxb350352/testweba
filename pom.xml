@@ -13,6 +13,7 @@
         <module>sso-cas-client-spring-boot-starter</module>
         <module>sso-client</module>
         <module>sso-server</module>
+        <module>springsecuritytest</module>
     </modules>
     <packaging>pom</packaging>
 
