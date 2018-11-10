@@ -14,6 +14,7 @@
         <module>sso-client</module>
         <module>sso-server</module>
         <module>springsecuritytest</module>
+        <module>springsecurityoath2</module>
     </modules>
     <packaging>pom</packaging>
 
