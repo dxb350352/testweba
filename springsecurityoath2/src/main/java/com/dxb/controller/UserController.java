@@ -21,7 +21,7 @@ public class UserController {
     //-------------------Retrieve All Users--------------------------------------------------------
 
     @PreAuthorize("hasRole('ADMIN')")
-    @RequestMapping(value = "/user", method = RequestMethod.GET)
+    @RequestMapping(value = "/users", method = RequestMethod.GET)
     @ResponseBody
     public List<User> listAllUsers() {
         List<User> users = userService.findAll();

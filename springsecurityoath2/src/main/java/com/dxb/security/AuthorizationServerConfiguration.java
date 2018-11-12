@@ -36,13 +36,12 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
 
 	@Override
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-
 		clients.inMemory()
 	        .withClient("client")//客户端ID
-            .authorizedGrantTypes("password", "authorization_code", "refresh_token", "implicit")
-            .authorities("ROLE_CLIENT", "admin")
-            .scopes("read", "write", "trust")//授权用户的操作权限
-            .secret("$2a$10$9pP7kHKV853BLfYxc8WduOiI69A.bVzXTU6XRU.4nbt8M0GxRH9Oq")//密码
+			.secret("$2a$10$9pP7kHKV853BLfYxc8WduOiI69A.bVzXTU6XRU.4nbt8M0GxRH9Oq")//密码
+			.authorizedGrantTypes("password", "authorization_code", "refresh_token", "implicit")//默认值为空
+			.authorities("ROLE_CLIENT", "admin")//授权给客户的认证（常规 Spring Security 认证）
+			.scopes("read", "write", "trust")//授权用户的操作权限,客户范围限制。如果范围未定义或为空（默认），客户端将不受范围限制
             .accessTokenValiditySeconds(120).//token有效期为120秒
             refreshTokenValiditySeconds(600);//刷新token有效期为600秒
 	}
