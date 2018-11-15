@@ -11,7 +11,7 @@ import org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHand
  * 资源服务器
  */
 @Configuration
-@EnableResourceServer
+@EnableResourceServer//批注自动向 Spring Security 筛选器链添加一个 OAuth2AuthenticationProcessingFilter 类型的筛选器
 public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
 
 	private static final String RESOURCE_ID = "my_rest_api";
@@ -23,8 +23,8 @@ public class ResourceServerConfiguration extends ResourceServerConfigurerAdapter
 
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
-		http.
-				 csrf().disable()
+		http
+				.csrf().disable()
 		.anonymous().disable()
 		.requestMatchers().antMatchers("/user*/**")
 		.and().authorizeRequests()
