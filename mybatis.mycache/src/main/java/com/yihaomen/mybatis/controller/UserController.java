@@ -2,7 +2,6 @@ package com.yihaomen.mybatis.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.yihaomen.mybatis.dao.ArticleMapper;
 import com.yihaomen.mybatis.model.Article;
 import com.yihaomen.mybatis.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
