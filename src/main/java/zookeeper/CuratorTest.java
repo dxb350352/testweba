@@ -2,10 +2,13 @@ package zookeeper;
 
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
+import org.apache.curator.framework.api.CuratorEvent;
+import org.apache.curator.framework.api.CuratorListener;
 import org.apache.curator.framework.api.CuratorWatcher;
 import org.apache.curator.retry.RetryNTimes;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.WatchedEvent;
+import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooDefs;
 
 import java.util.List;
@@ -22,15 +25,18 @@ public class CuratorTest {
         }).forPath("/");
         System.out.println(children);
         // 创建节点
-        String result = client.create().withMode(CreateMode.PERSISTENT).withACL(ZooDefs.Ids.OPEN_ACL_UNSAFE).forPath("/test", "Data".getBytes());
-        System.out.println(result);
+        try {
+            String result = client.create().withMode(CreateMode.PERSISTENT).withACL(ZooDefs.Ids.OPEN_ACL_UNSAFE).forPath("/test", "Data".getBytes());
+            System.out.println(result);
+        } catch (Exception e) {
+        }
         // 设置节点数据
         client.setData().forPath("/test", "111".getBytes());
         client.setData().forPath("/test", "222".getBytes());
         // 删除节点
-        //System.out.println(client.checkExists().forPath("/test"));
-        /*client.delete().withVersion(-1).forPath("/test");
-        System.out.println(client.checkExists().forPath("/test"));*/
+        System.out.println(client.checkExists().forPath("/test"));
+        client.delete().withVersion(-1).forPath("/test");
+        System.out.println(client.checkExists().forPath("/test"));
         client.close();
         System.out.println("OK！");
     }
