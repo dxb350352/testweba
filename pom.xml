@@ -15,6 +15,7 @@
         <module>sso-server</module>
         <module>springsecuritytest</module>
         <module>springsecurityoath2</module>
+        <module>zookeeper</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -96,17 +97,6 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.1.11.Final</version>
-        </dependency>
-        <!--据说这个包好些zookeeper-->
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-framework</artifactId>
-            <version>4.0.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.curator</groupId>
-            <artifactId>curator-recipes</artifactId>
-            <version>4.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.zookeeper</groupId>
