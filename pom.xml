@@ -16,6 +16,7 @@
         <module>springsecuritytest</module>
         <module>springsecurityoath2</module>
         <module>zookeeper</module>
+        <module>hibernatevalidator</module>
     </modules>
     <packaging>pom</packaging>
 
