@@ -1,6 +1,8 @@
 package java8;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.Spliterator;
 import java.util.concurrent.CountDownLatch;
 
 public class SpliteratorTest {
@@ -10,10 +12,10 @@ public class SpliteratorTest {
     }
 
     static void test1() {
-        var list = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
-        var spliterator = list.spliterator();
+        List<Integer> list = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+        Spliterator<Integer> spliterator = list.spliterator();
         //每次分割，都会分割剩余的前一半
-        for (var splitor = spliterator.trySplit(); splitor != null; splitor = spliterator.trySplit()) {
+        for (Spliterator<Integer> splitor = spliterator.trySplit(); splitor != null; splitor = spliterator.trySplit()) {
             splitor.forEachRemaining(o -> {
                 System.out.println(o + Thread.currentThread().getName());
             });
@@ -25,13 +27,13 @@ public class SpliteratorTest {
     }
 
     static void test2() {
-        var list = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
-        var spliterator = list.spliterator();
+        List<Integer> list = Arrays.asList(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+        Spliterator<Integer> spliterator = list.spliterator();
 
         CountDownLatch countDownLatch = new CountDownLatch(list.size());
-        for (var i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             new Thread(() -> {
-                var splitor = spliterator.trySplit();
+                Spliterator<Integer> splitor = spliterator.trySplit();
                 if (splitor != null) {
                     splitor.forEachRemaining(o -> {
                         System.out.println(o + Thread.currentThread().getName());

@@ -11,7 +11,7 @@ import static org.mockito.Mockito.*;
 public class MyTest {
     @Test
     public void myTest() {
-        var s="sss";
+        String s="sss";
         /* 创建 Mock 对象 */
         List list = mock(List.class);
         /* 设置预期，当调用 get(0) 方法时返回 "111" */

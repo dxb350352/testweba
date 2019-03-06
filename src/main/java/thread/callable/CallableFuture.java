@@ -6,11 +6,11 @@ import java.util.concurrent.*;
 public class CallableFuture {
     public static void main(String args[]) throws InterruptedException {
         ExecutorService executorService = Executors.newFixedThreadPool(3);
-        var f1 = executorService.submit(new CallableTest("t1"));
+        Future f1 = executorService.submit(new CallableTest("t1"));
         TimeUnit.SECONDS.sleep(1);
-        var f2 = executorService.submit(new CallableTest("t2"));
+        Future f2 = executorService.submit(new CallableTest("t2"));
         TimeUnit.SECONDS.sleep(1);
-        var f3 = executorService.submit(new CallableTest("t3"));
+        Future f3 = executorService.submit(new CallableTest("t3"));
         executorService.shutdown();
         try {
             System.out.println(f1.get());

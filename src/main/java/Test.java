@@ -16,8 +16,8 @@ public class Test {
         System.out.println("12321".hashCode());
         StringBuffer sb = new StringBuffer();
         sb.append(1);
-        var set = new Vector<>();
-        var birds = new ArrayList<String>() {
+        Vector set = new Vector<>();
+        List birds = new ArrayList<String>() {
             {
                 add("magpie");
                 add("crow");
