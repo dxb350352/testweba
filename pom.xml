@@ -18,6 +18,7 @@
         <module>zookeeper</module>
         <module>hibernatevalidator</module>
         <module>readfileinjar</module>
+        <module>guava</module>
     </modules>
     <packaging>pom</packaging>
 
