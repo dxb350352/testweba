@@ -19,6 +19,8 @@
         <module>hibernatevalidator</module>
         <module>readfileinjar</module>
         <module>guava</module>
+        <module>redis</module>
+        <module>Hystrix</module>
     </modules>
     <packaging>pom</packaging>
 
