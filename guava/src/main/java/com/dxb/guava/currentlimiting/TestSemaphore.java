@@ -3,6 +3,7 @@ package com.dxb.guava.currentlimiting;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
@@ -10,7 +11,7 @@ public class TestSemaphore {
     public static void main(String[] args) throws Exception {
         Semaphore semaphore = new Semaphore(2);
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
-
+        CountDownLatch countDownLatch=new CountDownLatch(list.size());
         for (int i = 0; i < list.size(); i++) {
             final int it = i;
             Thread t = new Thread(() -> {
@@ -29,10 +30,12 @@ public class TestSemaphore {
 //                    }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                }finally {
+                    countDownLatch.countDown();
                 }
             });
             t.start();
         }
-        TimeUnit.SECONDS.sleep(11);
+        countDownLatch.await();
     }
 }
