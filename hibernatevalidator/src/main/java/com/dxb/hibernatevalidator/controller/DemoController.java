@@ -2,6 +2,7 @@ package com.dxb.hibernatevalidator.controller;
 
 import com.dxb.hibernatevalidator.model.DemoModel;
 import org.hibernate.validator.constraints.Range;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
@@ -22,6 +23,19 @@ import java.util.Date;
 @Validated
 public class DemoController {
 
+    //    使用这种方式，当Bean（本例的TestController）初始化时，Spring并没有注入一个request对象，而是注入了一个代理（proxy）；当Bean中需要使用request对象时，通过该代理获取request对象。最后会发现有个ThreadLocal
+// AutowireUtils.ObjectFactoryDelegatingInvocationHandler
+// WebApplicationContextUtils.RequestObjectFactory
+    @Autowired
+    private HttpServletRequest request;
+
+    @RequestMapping("/thread_safe")
+    @ResponseBody
+    public String request() {
+        System.out.println(request);
+        return "ok";
+    }
+
     @InitBinder
 //    @InitBinder("demo")
     public void initBinder(WebDataBinder binder, HttpServletRequest request) {
@@ -35,7 +49,7 @@ public class DemoController {
     public Object demo(
 //            @ModelAttribute("demo")
             @Valid
-            DemoModel demo, BindingResult result,
+                    DemoModel demo, BindingResult result,
             //
             @Range(min = 1, max = 9, message = "年级只能从1-9")
             @RequestParam(name = "grade", required = true)
