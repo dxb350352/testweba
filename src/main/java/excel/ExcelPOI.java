@@ -46,7 +46,7 @@ public class ExcelPOI {
 
         //1列
 
-        row.createCell((short) 1).setCellValue("HelloWorld");
+        row.createCell((short) 1).setCellValue("HelloJNA");
 
 
         FileOutputStream fileOut = new FileOutputStream("c:\\workbook.xls");

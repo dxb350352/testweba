@@ -1,11 +1,11 @@
 package spring;
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.*;
+
+import java.util.Map;
 
 @Configuration
+@Import(TestBean.class)
 public class ConfigWithoutXml {
 
     public ConfigWithoutXml() {
@@ -28,6 +28,11 @@ public class ConfigWithoutXml {
         TestBean testBean2 = (TestBean) ctx.getBean("testBean");
         testBean2.sayHello();
         System.out.println(testBean2);
+        Map<String, TestBean> map = ctx.getBeansOfType(TestBean.class);
+        map.forEach((k, v) -> {
+            System.out.println(k + ":" + v);
+        });
+
         //这里会销毁非prototype的bean
         ctx.close();
 
