@@ -38,6 +38,7 @@ public class SSLChannelInitializer extends ChannelInitializer<SocketChannel> {
 
     @Override
     protected void initChannel(SocketChannel ch) {
+        System.out.println(Thread.currentThread().getName());
         System.out.println("init Channel:" + ch);
         ch.pipeline()
                 .addLast(new SslHandler(sslContext.newEngine(ch.alloc())))
