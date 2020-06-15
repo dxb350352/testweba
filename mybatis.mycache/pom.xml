@@ -16,7 +16,7 @@
     <url>http://maven.apache.org</url>
     <properties>
         <junit.test.version>4.11</junit.test.version>
-        <spring.version>4.2.6.RELEASE</spring.version>
+        <spring.version>5.2.7.RELEASE</spring.version>
         <quartz-scheduler-version>1.8.5</quartz-scheduler-version>
         <spring-boot-version>1.3.5.RELEASE</spring-boot-version>
         <mybatis.version>3.2.6</mybatis.version>
