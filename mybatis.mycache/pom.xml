@@ -15,7 +15,7 @@
     <name>spring-mybatis Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <junit.test.version>4.11</junit.test.version>
+        <junit.test.version>4.13.1</junit.test.version>
         <spring.version>4.2.6.RELEASE</spring.version>
         <quartz-scheduler-version>1.8.5</quartz-scheduler-version>
         <spring-boot-version>1.3.5.RELEASE</spring-boot-version>
